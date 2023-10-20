@@ -1,0 +1,33 @@
+project_name: tree_yaml
+files:
+  - name: Файл 20
+    content: 'Lorem Ipsum is simply dummy text of the'
+  - name: Файл 21
+    content: 'since the 1500s, when an unknown printer'
+  - name: Файл 22
+    content: 'the industry s standard dummy text ever'
+folders:
+  - name: Папка А
+    files:
+      - name: Файл 10
+        content: 'printing and typesetting'
+      - name: Файл 11
+        content: 'Lorem Ipsum has been'
+      - name: Файл 12
+        content: 'Lorem Ipsum has been'
+    folders:
+      - name: Папка В
+        files: []
+        folders: []
+      - name: Папка С
+        files:
+          - name: Файл 1
+            content: 'when an unknown printer took a galley'
+          - name: Файл 2
+            content: 'Lorem Ipsum is simply dummy text of the'
+          - name: Файл 3
+            content: 'the industry s standard dummy text ever'
+        folders: []
+  - name: Папка G
+    files: []
+    folders: []
